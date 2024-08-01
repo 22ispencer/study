@@ -10,9 +10,21 @@
     "astro": "astro"
   },
   "dependencies": {
-    "astro": "^4.13.0",
+    "@astrojs/alpinejs": "^0.4.0",
     "@astrojs/check": "^0.9.1",
+    "@astrojs/tailwind": "^5.1.0",
+    "@types/alpinejs": "^3.13.10",
+    "alpinejs": "^3.14.1",
+    "astro": "^4.13.0",
+    "astro-htmx": "^1.0.6",
+    "htmx.org": "^1.9.12",
+    "tailwindcss": "^3.4.7",
     "typescript": "^5.5.4"
   },
-  "packageManager": "pnpm@9.5.0+sha512.140036830124618d624a2187b50d04289d5a087f326c9edfc0ccd733d76c4f52c3a313d4fc148794a2a9d81553016004e6742e8cf850670268a7387fc220c903"
+  "packageManager": "pnpm@9.5.0+sha512.140036830124618d624a2187b50d04289d5a087f326c9edfc0ccd733d76c4f52c3a313d4fc148794a2a9d81553016004e6742e8cf850670268a7387fc220c903",
+  "devDependencies": {
+    "prettier": "^3.3.3",
+    "prettier-plugin-astro": "^0.14.1",
+    "prettier-plugin-tailwindcss": "^0.6.5"
+  }
 }
